@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #999;
+}
+body {
+    font-family: 'Montserrat',sans-serif;
+    line-height: 23px;
+}
+
+.block {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+.block__left {
+    background-color: #242528;
+}
+.block_right {
+    background: rgb(69,72,77);
+    background: -moz-linear-gradient(left,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+}
+.menu {
+padding-left: 20px;
+margin-top: 170px;
+list-style: none;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+position: fixed;
+
+transition: color .7s linear;
+}
+
+.menu :hover {
+    color: #858077;
+
+}
+
+.Genres{
+    color: white;
+    text-decoration: none;
+}
+.Albums {
+    text-decoration: none;
+    color: white;
+}
+.Faq {
+    text-decoration: none;
+    color: white;
+}
+.Telegram {
+    text-decoration: none;
+    color: white;
+}
+.Feedback {
+    text-decoration: none;
+    color: white;
+}
+.Donate {
+    text-decoration: none;
+    color: white;
+}
+
+.logo_1 {
+    position: fixed;
+    margin-left: 35px;
+    margin-bottom: 20px; 
+    width: 160px;
+    height: 150px; /* если высота не будет задана явна, она будет равна 100% */
+}
+
+li {
+    margin: 10px;
+}
+
+ul :first-child {
+    margin-top: 0px;
+}
+
+.logo {
+    display: block;
+}
+
+.card {
+    text-align: center;
+}
+.card__img {
+    margin-top: 10px;
+    background: url(D:/New_Era/Projects/Music/Pic/Keane.jpg) top center no-repeat;
+    background-size: 400px 400px;
+    width: 1000px;
+    height: 400px;
+
+}
+.card__title {
+    margin: 10px;
+}
+
+.card__title_link {
+    text-decoration: none;
+    transition: color .5s linear;
+}
+
+.card__title_link:hover{
+    color: white;
+}
+.card__desc {
+    margin: 10px;
+}
+
+.card2 {
+    text-align: center;
+}
+.card__title2 {
+    margin: 10px;
+}
+.card__img2 {
+    margin-top: 10px;
+    background: url(D:/New_Era/Projects/Music/Pic/Thedream.jpg) top center no-repeat;
+    background-size: 400px 400px;
+    width: 1000px;
+    height: 400px;
+}
+
+.card__title_link2 {
+    text-decoration: none;
+    transition: color .5s linear;
+}
+
+.card__title_link2:hover{
+    color: white;
+}
+
+.card__desc2 {
+    margin: 10px;
+}
