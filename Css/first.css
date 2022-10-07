@@ -71,7 +71,7 @@ transition: color .7s linear;
     margin-left: 35px;
     margin-bottom: 20px; 
     width: 160px;
-    height: 150px; /* если высота не будет задана явна, она будет равна 100% */
+    height: 150px;
 }
 
 li {
